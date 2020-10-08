@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/fx/Flower.tscn" type="PackedScene" id=1]
+
+[node name="Sakura" type="Node2D"]
+position = Vector2( -18.2297, 6.90322 )
+
+[node name="Flower" parent="." instance=ExtResource( 1 )]
+position = Vector2( 61.5923, -9.11057 )
+amount = 100
+
+[node name="Flower3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64.0633, 37.4968 )
+amount = 100
+
+[node name="Flower2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 9.54174, 16.7179 )
+amount = 100

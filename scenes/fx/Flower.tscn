@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/cenario/itens do cenário/folha (3).png" type="Texture" id=1]
+
+[sub_resource type="ParticlesMaterial" id=1]
+render_priority = 1
+flag_disable_z = true
+gravity = Vector3( 0, 98, 0 )
+initial_velocity = -300.0
+angular_velocity = 130.0
+angular_velocity_random = 1.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+damping = 30.0
+angle = -26.7
+angle_random = 1.0
+scale = 0.13
+scale_random = 0.03
+color = Color( 0.92549, 0.72549, 0.894118, 1 )
+hue_variation = 1.0
+
+[node name="Flower" type="Particles2D"]
+position = Vector2( -0.120361, -0.258118 )
+scale = Vector2( 0.8, 0.8 )
+z_index = 5
+amount = 10
+lifetime = 300.0
+preprocess = 100.0
+local_coords = false
+process_material = SubResource( 1 )
+texture = ExtResource( 1 )

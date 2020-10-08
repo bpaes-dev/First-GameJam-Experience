@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/impactGlass_medium_000.ogg-bb65a3c375240237a344da0a63da03f8.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/Audio/impactGlass_medium_000.ogg"
+dest_files=[ "res://.import/impactGlass_medium_000.ogg-bb65a3c375240237a344da0a63da03f8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
